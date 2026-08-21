@@ -1,10 +1,6 @@
-CREATE DATABASE CollegeDB;
-USE CollegeDB;
-CREATE TABLE Department (
-    DepartmentID INT(10) PRIMARY KEY,
-    DepartmentName VARCHAR(20),
-    HOD VARCHAR(20) NOT NULL);
-DESC DEPARTMEANT ;
-INSTAL DEPARTMEANT VALUES ("101","ADITH","JAYANTHI");
-SELECT*FROM DEPARTMEANT;
-DESC DEPARTMEANT ;
+create database collageDB;
+use collageDB;
+create table department(departmeantID integer(10) primary key,departmentname varchar(20),HOD varchar(20)NOT NULL);
+desc department;
+insert department values("101","adith","jayanthi");
+select*from department;
